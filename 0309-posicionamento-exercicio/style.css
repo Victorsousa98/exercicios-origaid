@@ -1,0 +1,103 @@
+body {
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.logo {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}   
+
+.menu .item {
+    background: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 50px;
+    padding: 5px 10px;
+}
+
+.menu .item a {
+    text-decoration: none;
+    color: #111;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    text-align: right;
+}
+
+.bicicleta{
+    width: 100%;
+}
+
+
+.descricao{
+    display: grid;
+    align-content: center;
+    justify-content: end;
+    padding-right: 30px;
+
+}
+
+.titulo{
+    font-size: 30px;
+    margin: 0;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.botao{
+    text-align: center;
+    background-color: #ee2211;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    place-self: end;
+
+}
+
+.imagem {
+    position: relative;
+}
+
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 30px;
+    right: 470px;
+    
+}
+
+.vantagens{
+    font-size: 64px;
+    color: #c6c6c6;
+    text-align: right;
+    place-items: center;
+    padding-right: 30px;
+}
+
+.vantagens__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
