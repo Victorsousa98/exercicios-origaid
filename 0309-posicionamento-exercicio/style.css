@@ -1,4 +1,5 @@
 body {
+    display: grid;
     align-items: center;
     background-color: #f0f0f0;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,7 +38,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
-    text-align: right;
 }
 
 .bicicleta{
@@ -46,10 +46,12 @@ body {
 
 
 .descricao{
+    background-color: #fff;
     display: grid;
     align-content: center;
     justify-content: end;
-    padding-right: 30px;
+    padding: 40px;
+    text-align: right;
 
 }
 
@@ -88,16 +90,39 @@ body {
 }
 
 .vantagens{
+    display: flex;
+    align-items: center;
     font-size: 64px;
     color: #c6c6c6;
+    padding: 40px;
     text-align: right;
-    place-items: center;
-    padding-right: 30px;
 }
 
-.vantagens__lista{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+.vantagens__lista {
+    background-color: #fff;
+
+}
+
+    
+
+
+
+.vantagens-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 40px;
+    gap: 10px 20px;
+}
+
+.vantagens-item p {
+    grid-column: 2;
+    margin: 0;
+}
+
+.rodape {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
 }
