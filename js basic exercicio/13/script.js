@@ -122,13 +122,13 @@ linksInternos.forEach((link) => {
 
 // Utilizando o código anterior, ao invés de mostrar no console,
 // remova o elemento que está sendo clicado, o método remove() remove um elemento
-const todosElementos = document.querySelectorAll("body *");
+// const todosElementos = document.querySelectorAll("body *");
 
-todosElementos.forEach((elemento) => {
-  elemento.addEventListener("click", (event) => {
-    elemento.remove();
-  });
-});
+// todosElementos.forEach((elemento) => {
+//   elemento.addEventListener("click", (event) => {
+//     elemento.remove();
+//   });
+// });
 
 // Se o usuário clicar na tecla (t), aumente todo o texto do site.
 
