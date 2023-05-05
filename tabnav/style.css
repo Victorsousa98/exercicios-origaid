@@ -1,5 +1,25 @@
+[data-ferramentas-lista] {
+  display: flex;
+  gap: 20px;
+}
+
 [data-ferramentas-lista] li {
   cursor: pointer;
+  background-color: #111111;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+[data-ferramentas-lista] li.ativo {
+  background-color: #2e2e2e;
+}
+
+[data-ferramentas-lista] li:hover {
+  background-color: #2e2e2e;
+  transition: all 0.3s linear;
+}
+[data-ferramentas-descricao] {
+  max-width: 300px;
 }
 
 .js [data-ferramentas-descricao] li {
