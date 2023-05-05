@@ -1,0 +1,36 @@
+h2 {
+  color: black;
+}
+nav {
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+ul a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #777777;
+}
+
+#home {
+  height: 100vh;
+  background-color: #111111;
+  padding-top: 80px;
+}
+
+#sobre {
+  height: 100vh;
+  background-color: #777777;
+  padding-top: 80px;
+}
+
+#contato {
+  height: 100vh;
+  background-color: #ffffff;
+  padding-top: 80px;
+}
